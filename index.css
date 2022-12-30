@@ -15,13 +15,6 @@ body {
   height: 100vh;
 }
 
-/* .container > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
 .scoreboard-container {
   display: flex;
   flex-direction: column;
@@ -63,4 +56,13 @@ h3 {
   font-family: scoreBoard;
   text-align: center;
   background: transparent;
+}
+
+#new-game > button {
+  background: #080001;
+  color: white;
+  font-family: scoreBoard;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
 }
